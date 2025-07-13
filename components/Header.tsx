@@ -16,11 +16,11 @@ export default function Header() {
   }, [])
 
   const navItems = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Menu', href: '#menu' },
-    { name: 'Gallery', href: '#gallery' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Beranda', href: '#home' },
+    { name: 'Tentang Kami', href: '#about' },
+    { name: 'Menu Kopi', href: '#menu' },
+    { name: 'Galeri', href: '#gallery' },
+    { name: 'Kontak', href: '#contact' },
   ]
 
   return (
@@ -35,7 +35,7 @@ export default function Header() {
             <span className={`text-xl md:text-2xl font-serif font-bold ${
               isScrolled ? 'text-coffee-800' : 'text-white'
             }`}>
-              Aroma Coffee
+              Aroma Coffee Sukoharjo
             </span>
           </div>
 
@@ -53,7 +53,7 @@ export default function Header() {
               </a>
             ))}
             <button className="btn-primary">
-              Order Now
+              Pesan Sekarang
             </button>
           </div>
 

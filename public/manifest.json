@@ -1,0 +1,27 @@
+{
+  "name": "Aroma Coffee Sukoharjo - Coffee Shop Terbaik di Sukoharjo",
+  "short_name": "Aroma Coffee Sukoharjo",
+  "description": "Coffee shop terbaik di Sukoharjo! Tempat ngopi enak dengan kopi premium, suasana nyaman, dan pelayanan terbaik.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#43302b",
+  "theme_color": "#43302b",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["food", "lifestyle", "business"],
+  "lang": "id",
+  "scope": "/",
+  "screenshots": [
+    {
+      "src": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+      "sizes": "1200x630",
+      "type": "image/jpeg"
+    }
+  ]
+}

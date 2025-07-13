@@ -6,23 +6,23 @@ export default function Contact() {
   const contactInfo = [
     {
       icon: MapPin,
-      title: 'Visit Us',
-      details: ['123 Coffee Street', 'Downtown District', 'City, State 12345']
+      title: 'Kunjungi Kami',
+      details: ['Jl. Jenderal Sudirman No. 123', 'Pusat Kota Sukoharjo', 'Sukoharjo, Jawa Tengah 57511']
     },
     {
       icon: Phone,
-      title: 'Call Us',
-      details: ['+1 (555) 123-4567', '+1 (555) 987-6543']
+      title: 'Hubungi Kami',
+      details: ['+62-271-123-4567', '+62-812-3456-7890']
     },
     {
       icon: Mail,
-      title: 'Email Us',
-      details: ['hello@aromacoffee.com', 'orders@aromacoffee.com']
+      title: 'Email Kami',
+      details: ['hello@aromacoffee-sukoharjo.com', 'order@aromacoffee-sukoharjo.com']
     },
     {
       icon: Clock,
-      title: 'Opening Hours',
-      details: ['Mon - Fri: 6:00 AM - 9:00 PM', 'Sat - Sun: 7:00 AM - 10:00 PM']
+      title: 'Jam Buka',
+      details: ['Senin - Jumat: 06:00 - 21:00', 'Sabtu - Minggu: 07:00 - 22:00']
     }
   ]
 
@@ -32,11 +32,12 @@ export default function Contact() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-coffee-900 mb-6">
-            Get In Touch
+            Hubungi Kami
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Have questions about our coffee or want to place a special order? 
-            We'd love to hear from you. Reach out and let's talk coffee!
+            Ada pertanyaan tentang kopi kami atau ingin pesan khusus? 
+            Kami siap membantu dan menjawab pertanyaan Anda. 
+            Hubungi coffee shop terbaik di Sukoharjo sekarang juga!
           </p>
         </div>
 

@@ -34,27 +34,27 @@ export default function About() {
           <div className="space-y-8">
             <div>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-coffee-900 mb-6">
-                Our Story of
-                <span className="block text-coffee-600">Coffee Excellence</span>
+                Coffee Shop Terbaik
+                <span className="block text-coffee-600">di Sukoharjo</span>
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed mb-6">
-                Founded in 2008, Aroma Coffee began as a small family business with a simple mission: 
-                to share our passion for exceptional coffee with our community. What started as a humble 
-                coffee cart has grown into a beloved local institution.
+                Aroma Coffee Sukoharjo didirikan tahun 2019 sebagai kedai kopi keluarga dengan misi sederhana: 
+                menyajikan kopi terbaik untuk masyarakat Sukoharjo. Dari warung kopi kecil, kini kami menjadi 
+                tempat ngopi favorit di pusat kota Sukoharjo yang selalu ramai pengunjung.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                We believe that great coffee is more than just a beverage—it&apos;s a moment of connection, 
-                a daily ritual, and a source of inspiration. Every cup we serve is a testament to our 
-                commitment to quality, sustainability, and the art of coffee making.
+                Kami percaya bahwa kopi bukan hanya minuman—tetapi momen kebersamaan, ritual harian, dan sumber inspirasi. 
+                Setiap cangkir kopi yang kami sajikan di Sukoharjo adalah bukti komitmen kami terhadap kualitas, 
+                keberlanjutan, dan seni membuat kopi yang sempurna.
               </p>
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="btn-primary">
-                Learn More
+                Pelajari Lebih Lanjut
               </button>
               <button className="btn-secondary">
-                Visit Our Farm
+                Kunjungi Lokasi Kami
               </button>
             </div>
           </div>
