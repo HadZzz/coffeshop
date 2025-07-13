@@ -83,6 +83,7 @@ export default function Gallery() {
               className="relative group cursor-pointer overflow-hidden rounded-lg aspect-square"
               onClick={() => setSelectedImage(index)}
             >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={image.src}
                 alt={image.alt}
@@ -126,6 +127,7 @@ export default function Gallery() {
               </button>
 
               {/* Image */}
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={images[selectedImage].src}
                 alt={images[selectedImage].alt}

@@ -122,7 +122,7 @@ export default function Contact() {
             <div>
               <h3 className="text-2xl font-semibold text-coffee-900 mb-6">Contact Information</h3>
               <p className="text-gray-600 mb-8">
-                We're here to help and answer any question you might have. 
+                We&apos;re here to help and answer any question you might have. 
                 We look forward to hearing from you.
               </p>
             </div>

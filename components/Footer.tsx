@@ -67,7 +67,7 @@ export default function Footer() {
             </div>
             <p className="text-coffee-200 mb-6 leading-relaxed">
               Crafting exceptional coffee experiences since 2008. From bean to cup, 
-              we're passionate about delivering the perfect brew every time.
+              we&apos;re passionate about delivering the perfect brew every time.
             </p>
             
             {/* Social Links */}

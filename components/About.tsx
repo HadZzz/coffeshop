@@ -43,7 +43,7 @@ export default function About() {
                 coffee cart has grown into a beloved local institution.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                We believe that great coffee is more than just a beverage—it's a moment of connection, 
+                We believe that great coffee is more than just a beverage—it&apos;s a moment of connection, 
                 a daily ritual, and a source of inspiration. Every cup we serve is a testament to our 
                 commitment to quality, sustainability, and the art of coffee making.
               </p>
@@ -62,6 +62,7 @@ export default function About() {
           {/* Image */}
           <div className="relative">
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                 alt="Coffee roasting process"
