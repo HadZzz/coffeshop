@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     description: 'Coffee shop terbaik di Sukoharjo! Tempat ngopi enak dengan kopi premium, suasana nyaman, dan pelayanan terbaik. Lokasi strategis di pusat kota Sukoharjo.',
     images: [
       {
-        url: 'https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+        url: 'https://aromacoffee-sukoharjo.vercel.app/logo.svg',
         width: 1200,
         height: 630,
         alt: 'Aroma Coffee Sukoharjo - Coffee Shop Terbaik di Sukoharjo',
@@ -48,9 +48,12 @@ export default function RootLayout({
     <html lang="id">
       <head>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/svg+xml" href="/logo.svg" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="mask-icon" href="/logo.svg" color="#43302b" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#43302b" />
+        <meta name="msapplication-TileColor" content="#43302b" />
         <link rel="manifest" href="/manifest.json" />
         
         {/* Local Business Schema */}
@@ -63,8 +66,8 @@ export default function RootLayout({
               "name": "Aroma Coffee Sukoharjo",
               "description": "Coffee shop terbaik di Sukoharjo dengan kopi premium dan suasana nyaman",
               "url": "https://aromacoffee-sukoharjo.vercel.app",
-              "telephone": "+62-271-123-4567",
-              "email": "hello@aromacoffee-sukoharjo.com",
+              "telephone": "+62-858-7612-0167",
+              "email": "hadzipamuji5@gmail.com",
               "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Jl. Jenderal Sudirman No. 123",

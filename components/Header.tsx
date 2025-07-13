@@ -31,7 +31,11 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <Coffee className={`h-8 w-8 ${isScrolled ? 'text-coffee-800' : 'text-white'}`} />
+            <img 
+              src="/logo.svg" 
+              alt="Aroma Coffee Sukoharjo Logo" 
+              className="h-10 w-10"
+            />
             <span className={`text-xl md:text-2xl font-serif font-bold ${
               isScrolled ? 'text-coffee-800' : 'text-white'
             }`}>

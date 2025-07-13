@@ -135,14 +135,14 @@ export default function Footer() {
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-cream-400 flex-shrink-0" />
                 <div className="text-coffee-200">
-                  <p>+1 (555) 123-4567</p>
+                  <p>+62-858-7612-0167</p>
                 </div>
               </div>
               
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-cream-400 flex-shrink-0" />
                 <div className="text-coffee-200">
-                  <p>hello@aromacoffee.com</p>
+                  <p>hadzipamuji5@gmail.com</p>
                 </div>
               </div>
             </div>

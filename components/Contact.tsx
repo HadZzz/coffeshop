@@ -12,12 +12,12 @@ export default function Contact() {
     {
       icon: Phone,
       title: 'Hubungi Kami',
-      details: ['+62-271-123-4567', '+62-812-3456-7890']
+      details: ['+62-858-7612-0167', 'WhatsApp: 085876120167']
     },
     {
       icon: Mail,
       title: 'Email Kami',
-      details: ['hello@aromacoffee-sukoharjo.com', 'order@aromacoffee-sukoharjo.com']
+      details: ['hadzipamuji5@gmail.com', 'info@aromacoffee-sukoharjo.com']
     },
     {
       icon: Clock,
