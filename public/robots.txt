@@ -1,8 +1,27 @@
 User-agent: *
 Allow: /
+Allow: /blog/
+Allow: /blog/*
 
-# Sitemap
+# Disallow admin or private areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /_next/
+Disallow: /api/
+
+# Allow important files
+Allow: /robots.txt
+Allow: /sitemap.xml
+Allow: /manifest.json
+
+# Crawl delay (optional)
+Crawl-delay: 1
+
+# Sitemap location
 Sitemap: https://aromacoffee-sukoharjo.vercel.app/sitemap.xml
+
+# Additional sitemaps for better indexing
+Sitemap: https://aromacoffee-sukoharjo.vercel.app/sitemap-blog.xml
 
 # Crawl-delay
 Crawl-delay: 1

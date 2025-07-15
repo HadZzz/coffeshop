@@ -25,13 +25,13 @@ export default function Hero() {
       <div className="relative z-10 text-center text-white container-custom">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-6 animate-fade-in">
-            Coffee Shop Terbaik
-            <span className="block text-cream-300">di Sukoharjo</span>
+            Coffeshop Sukoharjo
+            <span className="block text-cream-300">Aroma Coffee Mbahhadi</span>
           </h1>
           
           <p className="text-lg md:text-xl lg:text-2xl mb-8 text-gray-200 max-w-2xl mx-auto animate-slide-up">
-            Tempat ngopi enak di Sukoharjo dengan kopi premium, suasana nyaman, dan pelayanan terbaik. 
-            Kedai kopi favorit untuk nongkrong dan meeting di pusat kota Sukoharjo.
+            Tempat ngopi enak di Sukoharjo dengan kopi premium, suasana nyaman, dan harga terjangkau. 
+            Coffeshop Mbahhadi - kedai kopi favorit untuk nongkrong dan meeting di pusat kota Sukoharjo.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 animate-slide-up">

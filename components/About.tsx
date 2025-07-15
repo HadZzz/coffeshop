@@ -34,18 +34,18 @@ export default function About() {
           <div className="space-y-8">
             <div>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-coffee-900 mb-6">
-                Coffee Shop Terbaik
-                <span className="block text-coffee-600">di Sukoharjo</span>
+                Coffeshop Mbahhadi
+                <span className="block text-coffee-600">Tempat Ngopi Enak di Sukoharjo</span>
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed mb-6">
-                Aroma Coffee Sukoharjo didirikan tahun 2019 sebagai kedai kopi keluarga dengan misi sederhana: 
+                Aroma Coffee Mbahhadi didirikan tahun 2019 sebagai coffeshop keluarga di Sukoharjo dengan misi sederhana: 
                 menyajikan kopi terbaik untuk masyarakat Sukoharjo. Dari warung kopi kecil, kini kami menjadi 
-                tempat ngopi favorit di pusat kota Sukoharjo yang selalu ramai pengunjung.
+                coffeshop Sukoharjo favorit dan tempat ngopi enak di pusat kota yang selalu ramai pengunjung.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Kami percaya bahwa kopi bukan hanya minuman—tetapi momen kebersamaan, ritual harian, dan sumber inspirasi. 
-                Setiap cangkir kopi yang kami sajikan di Sukoharjo adalah bukti komitmen kami terhadap kualitas, 
-                keberlanjutan, dan seni membuat kopi yang sempurna.
+                Sebagai coffeshop Mbahhadi terpercaya, kami percaya bahwa kopi bukan hanya minuman—tetapi momen kebersamaan, ritual harian, dan sumber inspirasi. 
+                Setiap cangkir kopi yang kami sajikan di coffeshop Sukoharjo ini adalah bukti komitmen kami terhadap kualitas, 
+                keberlanjutan, dan seni membuat kopi yang sempurna untuk tempat ngopi enak di Sukoharjo.
               </p>
             </div>
             

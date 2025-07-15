@@ -19,6 +19,7 @@ export default function Header() {
     { name: 'Beranda', href: '#home' },
     { name: 'Tentang Kami', href: '#about' },
     { name: 'Menu Kopi', href: '#menu' },
+    { name: 'Blog', href: '/blog' },
     { name: 'Galeri', href: '#gallery' },
     { name: 'Kontak', href: '#contact' },
   ]

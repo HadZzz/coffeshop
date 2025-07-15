@@ -1,30 +1,33 @@
-'use client'
+"use client";
 
-import { MapPin, Phone, Mail, Clock, Send } from 'lucide-react'
+import { MapPin, Phone, Mail, Clock, Send } from "lucide-react";
 
 export default function Contact() {
   const contactInfo = [
     {
       icon: MapPin,
-      title: 'Kunjungi Kami',
-      details: ['Jl. Jenderal Sudirman No. 123', 'Pusat Kota Sukoharjo', 'Sukoharjo, Jawa Tengah 57511']
+      title: "Lokasi Coffeshop Sukoharjo",
+      details: ["Jl. Jenderal Sudirman No. 123", "Pusat Kota Sukoharjo", "Jawa Tengah 57511"],
     },
     {
       icon: Phone,
-      title: 'Hubungi Kami',
-      details: ['+62-858-7612-0167', 'WhatsApp: 085876120167']
+      title: "Telepon Coffeshop Mbahhadi",
+      details: ["+62-858-7612-0167", "WhatsApp: +62-858-7612-0167"],
     },
     {
       icon: Mail,
-      title: 'Email Kami',
-      details: ['hadzipamuji5@gmail.com', 'info@aromacoffee-sukoharjo.com']
+      title: "Email Tempat Ngopi Sukoharjo",
+      details: ["hadzipamuji5@gmail.com", "info@aromacoffee-sukoharjo.com"],
     },
     {
       icon: Clock,
-      title: 'Jam Buka',
-      details: ['Senin - Jumat: 06:00 - 21:00', 'Sabtu - Minggu: 07:00 - 22:00']
-    }
-  ]
+      title: "Jam Buka Coffeshop Sukoharjo",
+      details: [
+        "Senin - Jumat: 06:00 - 21:00",
+        "Sabtu - Minggu: 07:00 - 22:00",
+      ],
+    },
+  ];
 
   return (
     <section id="contact" className="section-padding bg-white">
@@ -32,24 +35,28 @@ export default function Contact() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-coffee-900 mb-6">
-            Hubungi Kami
+            Kontak Coffeshop Mbahhadi Sukoharjo
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Ada pertanyaan tentang kopi kami atau ingin pesan khusus? 
-            Kami siap membantu dan menjawab pertanyaan Anda. 
-            Hubungi coffee shop terbaik di Sukoharjo sekarang juga!
+            Ada pertanyaan tentang kopi kami atau ingin reservasi tempat di coffeshop Sukoharjo? 
+            Hubungi Aroma Coffee Mbahhadi - tempat ngopi enak di Sukoharjo yang siap melayani Anda!
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
           {/* Contact Form */}
           <div className="bg-cream-50 p-8 rounded-2xl">
-            <h3 className="text-2xl font-semibold text-coffee-900 mb-6">Send us a Message</h3>
-            
+            <h3 className="text-2xl font-semibold text-coffee-900 mb-6">
+              Kirim Pesan ke Coffeshop Mbahhadi
+            </h3>
+
             <form className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label
+                    htmlFor="firstName"
+                    className="block text-sm font-medium text-gray-700 mb-2"
+                  >
                     First Name
                   </label>
                   <input
@@ -60,7 +67,10 @@ export default function Contact() {
                   />
                 </div>
                 <div>
-                  <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label
+                    htmlFor="lastName"
+                    className="block text-sm font-medium text-gray-700 mb-2"
+                  >
                     Last Name
                   </label>
                   <input
@@ -73,7 +83,10 @@ export default function Contact() {
               </div>
 
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                <label
+                  htmlFor="email"
+                  className="block text-sm font-medium text-gray-700 mb-2"
+                >
                   Email Address
                 </label>
                 <input
@@ -85,7 +98,10 @@ export default function Contact() {
               </div>
 
               <div>
-                <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
+                <label
+                  htmlFor="subject"
+                  className="block text-sm font-medium text-gray-700 mb-2"
+                >
                   Subject
                 </label>
                 <input
@@ -97,7 +113,10 @@ export default function Contact() {
               </div>
 
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                <label
+                  htmlFor="message"
+                  className="block text-sm font-medium text-gray-700 mb-2"
+                >
                   Message
                 </label>
                 <textarea
@@ -121,10 +140,12 @@ export default function Contact() {
           {/* Contact Information */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-semibold text-coffee-900 mb-6">Contact Information</h3>
+              <h3 className="text-2xl font-semibold text-coffee-900 mb-6">
+                Informasi Kontak Coffeshop Sukoharjo
+              </h3>
               <p className="text-gray-600 mb-8">
-                We&apos;re here to help and answer any question you might have. 
-                We look forward to hearing from you.
+                Kami siap membantu dan menjawab pertanyaan Anda tentang coffeshop Mbahhadi. 
+                Sebagai tempat ngopi enak di Sukoharjo, kami menantikan kunjungan Anda!
               </p>
             </div>
 
@@ -135,9 +156,13 @@ export default function Contact() {
                     <info.icon className="h-6 w-6 text-coffee-600" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-coffee-900 mb-1">{info.title}</h4>
+                    <h4 className="font-semibold text-coffee-900 mb-1">
+                      {info.title}
+                    </h4>
                     {info.details.map((detail, detailIndex) => (
-                      <p key={detailIndex} className="text-gray-600">{detail}</p>
+                      <p key={detailIndex} className="text-gray-600">
+                        {detail}
+                      </p>
                     ))}
                   </div>
                 </div>
@@ -150,7 +175,9 @@ export default function Contact() {
                 <div className="text-center">
                   <MapPin className="h-12 w-12 text-gray-400 mx-auto mb-2" />
                   <p className="text-gray-500">Interactive Map</p>
-                  <p className="text-sm text-gray-400">Location: 123 Coffee Street</p>
+                  <p className="text-sm text-gray-400">
+                    Location: 123 Coffee Street
+                  </p>
                 </div>
               </div>
             </div>
@@ -158,5 +185,6 @@ export default function Contact() {
         </div>
       </div>
     </section>
-  )
+  );
 }
+

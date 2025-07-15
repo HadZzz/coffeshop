@@ -7,10 +7,10 @@ export default function Menu() {
   const [activeCategory, setActiveCategory] = useState('coffee')
 
   const categories = [
-    { id: 'coffee', name: 'Coffee' },
+    { id: 'coffee', name: 'Kopi Premium' },
     { id: 'espresso', name: 'Espresso' },
-    { id: 'cold', name: 'Cold Drinks' },
-    { id: 'pastry', name: 'Pastries' }
+    { id: 'cold', name: 'Minuman Dingin' },
+    { id: 'pastry', name: 'Makanan & Snack' }
   ]
 
   const menuItems = {
@@ -118,11 +118,11 @@ export default function Menu() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-coffee-900 mb-6">
-            Our Menu
+            Menu Kopi Coffeshop Mbahhadi Sukoharjo
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Discover our carefully curated selection of premium coffees, expertly crafted beverages, 
-            and delicious pastries made fresh daily.
+            Temukan pilihan kopi premium terbaik di coffeshop Sukoharjo kami! Menu lengkap 
+            Aroma Coffee Mbahhadi - tempat ngopi enak di Sukoharjo dengan cita rasa istimewa.
           </p>
         </div>
 
@@ -189,9 +189,19 @@ export default function Menu() {
 
         {/* CTA */}
         <div className="text-center mt-12">
-          <button className="btn-primary text-lg px-8 py-4">
-            View Full Menu
-          </button>
+          <div className="bg-cream-50 p-8 rounded-2xl max-w-4xl mx-auto">
+            <h3 className="text-2xl font-serif font-bold text-coffee-900 mb-4">
+              Nikmati Menu Terbaik di Coffeshop Sukoharjo
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Aroma Coffee Mbahhadi menyajikan menu kopi terlengkap di Sukoharjo. 
+              Sebagai tempat ngopi enak di Sukoharjo, kami menggunakan biji kopi premium 
+              dan resep rahasia yang telah teruji sejak 2019.
+            </p>
+            <button className="btn-primary text-lg px-8 py-4">
+              Lihat Menu Lengkap Coffeshop Mbahhadi
+            </button>
+          </div>
         </div>
       </div>
     </section>
