@@ -4,7 +4,7 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Coffeshop Sukoharjo - Aroma Coffee Mbahhadi | Tempat Ngopi Enak di Sukoharjo',
   description: 'Coffeshop Sukoharjo terbaik! Aroma Coffee Mbahhadi - tempat ngopi enak di Sukoharjo dengan kopi premium, suasana nyaman, dan harga terjangkau. Lokasi strategis di pusat kota Sukoharjo. Buka setiap hari!',
-  keywords: 'coffeshop sukoharjo, coffeshop mbahhadi, tempat ngopi enak di sukoharjo, kedai kopi sukoharjo, cafe sukoharjo, kopi terbaik sukoharjo, tempat nongkrong sukoharjo, warung kopi sukoharjo, coffee shop sukoharjo, aroma coffee sukoharjo, ngopi murah sukoharjo, kedai kopi enak sukoharjo',
+  keywords: 'coffeshop sukoharjo, coffeshop mbahhadi, aroma coffee sukoharjo, tempat ngopi enak di sukoharjo, tempat ngopi murah sukoharjo, kedai kopi mbahhadi, tempat meeting sukoharjo, wifi gratis sukoharjo, kedai kopi sukoharjo, cafe sukoharjo, warung kopi mbahhadi sukoharjo, coffee shop mbahhadi, rekomendasi coffee shop sukoharjo, tempat nongkrong enak sukoharjo, kopi terbaik sukoharjo, tempat kerja wifi sukoharjo, ruang meeting murah sukoharjo, kedai kopi 24 jam sukoharjo, coffee shop instagramable sukoharjo, tempat ngopi romantis sukoharjo',
   authors: [{ name: 'Aroma Coffee Sukoharjo' }],
   creator: 'Aroma Coffee Sukoharjo',
   publisher: 'Aroma Coffee Sukoharjo',
@@ -80,13 +80,13 @@ export default function RootLayout({
         <meta name="business:contact_data:phone_number" content="+62-858-7612-0167" />
         <meta name="business:contact_data:email" content="hadzipamuji5@gmail.com" />
         
-        {/* Local Business Schema */}
+        {/* Enhanced Local Business Schema */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "CafeOrCoffeeShop",
+              "@type": ["CafeOrCoffeeShop", "LocalBusiness", "Restaurant"],
               "name": "Aroma Coffee Mbahhadi - Coffeshop Sukoharjo",
               "alternateName": ["Coffeshop Mbahhadi", "Tempat Ngopi Enak Sukoharjo", "Aroma Coffee Sukoharjo"],
               "description": "Coffeshop Sukoharjo terbaik - Aroma Coffee Mbahhadi, tempat ngopi enak di Sukoharjo dengan kopi premium dan suasana nyaman",
@@ -142,7 +142,79 @@ export default function RootLayout({
                   "value": true
                 }
               ],
-              "keywords": "coffeshop sukoharjo, coffeshop mbahhadi, tempat ngopi enak di sukoharjo, kedai kopi sukoharjo, cafe sukoharjo"
+              "keywords": "coffeshop sukoharjo, coffeshop mbahhadi, tempat ngopi enak di sukoharjo, kedai kopi sukoharjo, cafe sukoharjo, aroma coffee sukoharjo, tempat ngopi murah sukoharjo, wifi gratis sukoharjo, tempat meeting sukoharjo, kopi terbaik sukoharjo",
+              "sameAs": [
+                "https://www.instagram.com/aromacoffeesukoharjo",
+                "https://www.facebook.com/aromacoffeesukoharjo", 
+                "https://goo.gl/maps/aromacoffeesukoharjo"
+              ],
+              "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Menu Kopi Aroma Coffee Sukoharjo",
+                "itemListElement": [
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Product",
+                      "name": "Kopi Espresso Premium"
+                    },
+                    "price": "12000",
+                    "priceCurrency": "IDR"
+                  },
+                  {
+                    "@type": "Offer", 
+                    "itemOffered": {
+                      "@type": "Product",
+                      "name": "Cappuccino Sukoharjo"
+                    },
+                    "price": "15000",
+                    "priceCurrency": "IDR"
+                  }
+                ]
+              },
+              "makesOffer": [
+                {
+                  "@type": "Offer",
+                  "name": "WiFi Gratis Sukoharjo",
+                  "description": "Internet gratis untuk semua pelanggan"
+                },
+                {
+                  "@type": "Offer",
+                  "name": "Tempat Meeting Sukoharjo", 
+                  "description": "Ruang meeting nyaman dengan AC dan WiFi"
+                }
+              ]
+            })
+          }}
+        />
+        
+        {/* Breadcrumb Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Coffeshop Sukoharjo",
+                  "item": "https://aromacoffee-sukoharjo.vercel.app"
+                },
+                {
+                  "@type": "ListItem", 
+                  "position": 2,
+                  "name": "Tempat Ngopi Enak di Sukoharjo",
+                  "item": "https://aromacoffee-sukoharjo.vercel.app#about"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Menu Kopi Sukoharjo",
+                  "item": "https://aromacoffee-sukoharjo.vercel.app#menu"
+                }
+              ]
             })
           }}
         />

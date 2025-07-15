@@ -1,3 +1,41 @@
-# 32x32 PNG favicon - Coffee cup icon
-# This is a placeholder - you need to create actual PNG files
-# Use the logo.svg as base and convert to 32x32 PNG
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="60" cy="60" r="58" fill="#43302b" stroke="#8B4513" stroke-width="4"/>
+  
+  <!-- Coffee Cup -->
+  <g transform="translate(30, 25)">
+    <!-- Cup Body -->
+    <path d="M15 25 L45 25 L42 55 C41.5 58 39 60 36 60 L24 60 C21 60 18.5 58 18 55 L15 25 Z" fill="#D2B48C" stroke="#8B4513" stroke-width="2"/>
+    
+    <!-- Coffee Liquid -->
+    <ellipse cx="30" cy="28" rx="13" ry="3" fill="#4A2C2A"/>
+    
+    <!-- Cup Handle -->
+    <path d="M45 35 C50 35 52 38 52 42 C52 46 50 49 45 49" fill="none" stroke="#8B4513" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Steam Lines -->
+    <path d="M25 20 Q25 15 27 18 Q27 13 29 16" fill="none" stroke="#E6E6FA" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+    <path d="M30 18 Q30 13 32 16 Q32 11 34 14" fill="none" stroke="#E6E6FA" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+    <path d="M35 20 Q35 15 37 18 Q37 13 39 16" fill="none" stroke="#E6E6FA" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  </g>
+  
+  <!-- Coffee Beans -->
+  <g transform="translate(20, 75)">
+    <ellipse cx="8" cy="8" rx="4" ry="6" fill="#8B4513" transform="rotate(-20)"/>
+    <path d="M6 5 Q8 8 6 11" stroke="#654321" stroke-width="1" fill="none"/>
+  </g>
+  
+  <g transform="translate(75, 80)">
+    <ellipse cx="8" cy="8" rx="4" ry="6" fill="#8B4513" transform="rotate(30)"/>
+    <path d="M6 5 Q8 8 6 11" stroke="#654321" stroke-width="1" fill="none"/>
+  </g>
+  
+  <g transform="translate(85, 35)">
+    <ellipse cx="6" cy="6" rx="3" ry="5" fill="#8B4513" transform="rotate(-45)"/>
+    <path d="M4 3 Q6 6 4 9" stroke="#654321" stroke-width="1" fill="none"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="60" y="105" font-family="serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#D2B48C">AROMA</text>
+  <text x="60" y="115" font-family="serif" font-size="8" text-anchor="middle" fill="#D2B48C">COFFEE</text>
+</svg>

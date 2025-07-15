@@ -30,8 +30,8 @@ export default function Hero() {
           </h1>
           
           <p className="text-lg md:text-xl lg:text-2xl mb-8 text-gray-200 max-w-2xl mx-auto animate-slide-up">
-            Tempat ngopi enak di Sukoharjo dengan kopi premium, suasana nyaman, dan harga terjangkau. 
-            Coffeshop Mbahhadi - kedai kopi favorit untuk nongkrong dan meeting di pusat kota Sukoharjo.
+            <strong>Aroma Coffee Sukoharjo</strong> - tempat ngopi murah dengan kopi premium, WiFi gratis, dan suasana nyaman. 
+            <strong>Kedai kopi Mbahhadi</strong> terbaik untuk tempat meeting dan nongkrong di pusat kota Sukoharjo sejak 2019.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 animate-slide-up">
