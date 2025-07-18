@@ -5,34 +5,34 @@ import { Wifi, Users, Coffee, Clock, MapPin, Star } from 'lucide-react'
 export default function Features() {
   const features = [
     {
-      icon: Wifi,
-      title: 'WiFi Gratis Sukoharjo',
-      description: 'Internet cepat dan stabil untuk bekerja, belajar, atau meeting di tempat ngopi terbaik Sukoharjo.'
+      icon: Coffee,
+      title: 'Kopi Enak Sukoharjo',
+      description: 'Kopi premium berkualitas tinggi dengan cita rasa terbaik di tempat ngopi enak Sukoharjo.'
+    },
+    {
+      icon: Star,
+      title: 'Coffee Shop Terbaik',
+      description: 'Rating 4.8/5 dari pelanggan membuat kami coffee shop Sukoharjo terbaik dan cafe Sukoharjo favorit.'
     },
     {
       icon: Users,
-      title: 'Tempat Meeting Sukoharjo',
-      description: 'Ruang nyaman untuk meeting bisnis, diskusi, atau gathering di kedai kopi Mbahhadi.'
-    },
-    {
-      icon: Coffee,
-      title: 'Tempat Ngopi Murah',
-      description: 'Harga terjangkau untuk semua kalangan tanpa mengurangi kualitas kopi premium kami.'
-    },
-    {
-      icon: Clock,
-      title: 'Buka Pagi Hingga Malam',
-      description: 'Aroma Coffee Sukoharjo buka dari pagi hingga malam untuk kenyamanan Anda.'
+      title: 'Tempat Nongkrong Nyaman',
+      description: 'Suasana hangat dan nyaman untuk nongkrong bersama teman di kedai kopi Sukoharjo.'
     },
     {
       icon: MapPin,
       title: 'Lokasi Strategis',
-      description: 'Terletak di pusat kota Sukoharjo, mudah dijangkau dari berbagai arah.'
+      description: 'Terletak di pusat kota Sukoharjo, mudah dijangkau sebagai tempat ngopi nyaman Sukoharjo.'
     },
     {
-      icon: Star,
-      title: 'Rekomendasi Terbaik',
-      description: 'Rating 4.8/5 dari pelanggan membuat kami rekomendasi coffee shop Sukoharjo #1.'
+      icon: Clock,
+      title: 'Buka Pagi Hingga Malam',
+      description: 'Warung kopi Sukoharjo yang buka dari pagi hingga malam untuk kenyamanan Anda.'
+    },
+    {
+      icon: Wifi,
+      title: 'Fasilitas Lengkap',
+      description: 'WiFi gratis dan fasilitas lengkap di rekomendasi coffee shop Sukoharjo ini.'
     }
   ]
 
@@ -41,11 +41,11 @@ export default function Features() {
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-coffee-900 mb-6">
-            Mengapa Pilih Aroma Coffee Sukoharjo?
+            Mengapa Pilih Tempat Ngopi Enak di Sukoharjo Ini?
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Kedai kopi Mbahhadi dengan fasilitas lengkap dan pelayanan terbaik. 
-            Tempat ngopi murah yang tidak murahan di pusat kota Sukoharjo.
+            Kedai kopi Mbahhadi dengan kopi enak dan pelayanan terbaik. 
+            Coffee shop Sukoharjo yang menjadi cafe Sukoharjo favorit di pusat kota.
           </p>
         </div>
 

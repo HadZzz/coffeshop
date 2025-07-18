@@ -9,12 +9,12 @@ export default function LocalSEO() {
         {/* Local Business Info */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-coffee-900 mb-6">
-            Coffeshop Sukoharjo Terpercaya #1
+            Tempat Ngopi Enak di Sukoharjo #1
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-            <strong>Aroma Coffee Mbahhadi</strong> adalah <strong>coffeshop Sukoharjo</strong> terbaik yang telah melayani 
-            masyarakat sejak 2019. Sebagai <strong>tempat ngopi enak di Sukoharjo</strong> dengan rating 4.8/5, 
-            kami menjadi pilihan utama untuk <strong>tempat meeting Sukoharjo</strong> dan <strong>WiFi gratis Sukoharjo</strong>.
+            <strong>Kedai kopi Mbahhadi</strong> adalah <strong>tempat ngopi enak di Sukoharjo</strong> terbaik yang telah melayani 
+            masyarakat sejak 2019. Sebagai <strong>coffee shop Sukoharjo</strong> dengan rating 4.8/5, 
+            kami menjadi <strong>cafe Sukoharjo</strong> favorit dan <strong>rekomendasi coffee shop Sukoharjo</strong> #1.
           </p>
         </div>
 

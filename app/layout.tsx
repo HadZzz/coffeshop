@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Coffeshop Sukoharjo - Aroma Coffee Mbahhadi | Tempat Ngopi Enak di Sukoharjo',
-  description: 'Coffeshop Sukoharjo terbaik! Aroma Coffee Mbahhadi - tempat ngopi enak di Sukoharjo dengan kopi premium, suasana nyaman, dan harga terjangkau. Lokasi strategis di pusat kota Sukoharjo. Buka setiap hari!',
-  keywords: 'coffeshop sukoharjo, coffeshop mbahhadi, aroma coffee sukoharjo, tempat ngopi enak di sukoharjo, tempat ngopi murah sukoharjo, kedai kopi mbahhadi, tempat meeting sukoharjo, wifi gratis sukoharjo, kedai kopi sukoharjo, cafe sukoharjo, warung kopi mbahhadi sukoharjo, coffee shop mbahhadi, rekomendasi coffee shop sukoharjo, tempat nongkrong enak sukoharjo, kopi terbaik sukoharjo, tempat kerja wifi sukoharjo, ruang meeting murah sukoharjo, kedai kopi 24 jam sukoharjo, coffee shop instagramable sukoharjo, tempat ngopi romantis sukoharjo',
+  title: 'Tempat Ngopi Enak di Sukoharjo - Kedai Kopi Mbahhadi | Coffee Shop Sukoharjo Terbaik',
+  description: 'Tempat ngopi enak di Sukoharjo! Kedai kopi Mbahhadi - coffee shop Sukoharjo terbaik dengan kopi premium, suasana nyaman, harga murah. Cafe Sukoharjo favorit sejak 2019. Warung kopi terenak di pusat kota!',
+  keywords: 'tempat ngopi enak di sukoharjo, kedai kopi sukoharjo, coffee shop sukoharjo, cafe sukoharjo, warung kopi sukoharjo, kopi enak sukoharjo, tempat ngopi murah sukoharjo, kedai kopi mbahhadi, coffeshop mbahhadi, aroma coffee sukoharjo, tempat nongkrong sukoharjo, kopi terbaik sukoharjo, rekomendasi coffee shop sukoharjo, tempat ngopi nyaman sukoharjo, kedai kopi enak sukoharjo, coffee shop terbaik sukoharjo, warung kopi mbahhadi, cafe enak sukoharjo, tempat minum kopi sukoharjo'gramable sukoharjo, tempat ngopi romantis sukoharjo',
   authors: [{ name: 'Aroma Coffee Sukoharjo' }],
   creator: 'Aroma Coffee Sukoharjo',
   publisher: 'Aroma Coffee Sukoharjo',
@@ -14,8 +14,8 @@ export const metadata: Metadata = {
     locale: 'id_ID',
     url: 'https://aromacoffee-sukoharjo.vercel.app',
     siteName: 'Aroma Coffee Sukoharjo',
-    title: 'Coffeshop Sukoharjo - Aroma Coffee Mbahhadi | Tempat Ngopi Enak di Sukoharjo',
-    description: 'Coffeshop Sukoharjo terbaik! Aroma Coffee Mbahhadi - tempat ngopi enak di Sukoharjo dengan kopi premium, suasana nyaman, dan harga terjangkau.',
+    title: 'Tempat Ngopi Enak di Sukoharjo - Kedai Kopi Mbahhadi | Coffee Shop Sukoharjo Terbaik',
+    description: 'Tempat ngopi enak di Sukoharjo! Kedai kopi Mbahhadi - coffee shop Sukoharjo terbaik dengan kopi premium, suasana nyaman, harga murah.',
     images: [
       {
         url: 'https://aromacoffee-sukoharjo.vercel.app/logo.svg',
@@ -27,8 +27,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Coffeshop Sukoharjo - Aroma Coffee Mbahhadi | Tempat Ngopi Enak di Sukoharjo',
-    description: 'Coffeshop Sukoharjo terbaik! Aroma Coffee Mbahhadi - tempat ngopi enak di Sukoharjo dengan kopi premium, suasana nyaman, dan harga terjangkau.',
+    title: 'Tempat Ngopi Enak di Sukoharjo - Kedai Kopi Mbahhadi | Coffee Shop Sukoharjo Terbaik',
+    description: 'Tempat ngopi enak di Sukoharjo! Kedai kopi Mbahhadi - coffee shop Sukoharjo terbaik dengan kopi premium, suasana nyaman, harga murah.',
     images: ['https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80'],
   },
   verification: {
@@ -64,9 +64,9 @@ export default function RootLayout({
         <meta name="geo.placename" content="Sukoharjo" />
         <meta name="geo.position" content="-7.6837;110.8407" />
         <meta name="ICBM" content="-7.6837, 110.8407" />
-        <meta name="DC.title" content="Coffeshop Sukoharjo - Aroma Coffee Mbahhadi" />
-        <meta name="DC.subject" content="Coffeshop, Tempat Ngopi, Kopi Sukoharjo" />
-        <meta name="DC.description" content="Coffeshop Sukoharjo terbaik - Aroma Coffee Mbahhadi, tempat ngopi enak di Sukoharjo" />
+        <meta name="DC.title" content="Tempat Ngopi Enak di Sukoharjo - Kedai Kopi Mbahhadi" />
+        <meta name="DC.subject" content="Tempat Ngopi Enak, Kedai Kopi, Coffee Shop Sukoharjo" />
+        <meta name="DC.description" content="Tempat ngopi enak di Sukoharjo - Kedai kopi Mbahhadi, coffee shop Sukoharjo terbaik" />
         <meta name="DC.creator" content="Aroma Coffee Mbahhadi" />
         <meta name="DC.language" content="id" />
         <meta name="DC.coverage" content="Sukoharjo, Jawa Tengah, Indonesia" />
@@ -87,9 +87,9 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": ["CafeOrCoffeeShop", "LocalBusiness", "Restaurant"],
-              "name": "Aroma Coffee Mbahhadi - Coffeshop Sukoharjo",
-              "alternateName": ["Coffeshop Mbahhadi", "Tempat Ngopi Enak Sukoharjo", "Aroma Coffee Sukoharjo"],
-              "description": "Coffeshop Sukoharjo terbaik - Aroma Coffee Mbahhadi, tempat ngopi enak di Sukoharjo dengan kopi premium dan suasana nyaman",
+              "name": "Kedai Kopi Mbahhadi - Tempat Ngopi Enak di Sukoharjo",
+              "alternateName": ["Tempat Ngopi Enak di Sukoharjo", "Kedai Kopi Sukoharjo", "Coffee Shop Sukoharjo", "Cafe Sukoharjo", "Warung Kopi Mbahhadi", "Aroma Coffee Sukoharjo"],
+              "description": "Tempat ngopi enak di Sukoharjo - Kedai kopi Mbahhadi, coffee shop Sukoharjo terbaik dengan kopi premium dan suasana nyaman",
               "url": "https://aromacoffee-sukoharjo.vercel.app",
               "telephone": "+62-858-7612-0167",
               "email": "hadzipamuji5@gmail.com",
@@ -142,7 +142,7 @@ export default function RootLayout({
                   "value": true
                 }
               ],
-              "keywords": "coffeshop sukoharjo, coffeshop mbahhadi, tempat ngopi enak di sukoharjo, kedai kopi sukoharjo, cafe sukoharjo, aroma coffee sukoharjo, tempat ngopi murah sukoharjo, wifi gratis sukoharjo, tempat meeting sukoharjo, kopi terbaik sukoharjo",
+              "keywords": "tempat ngopi enak di sukoharjo, kedai kopi sukoharjo, coffee shop sukoharjo, cafe sukoharjo, warung kopi sukoharjo, kopi enak sukoharjo, tempat ngopi murah sukoharjo, kedai kopi mbahhadi, tempat nongkrong sukoharjo, kopi terbaik sukoharjo, rekomendasi coffee shop sukoharjo, tempat ngopi nyaman sukoharjo",
               "sameAs": [
                 "https://www.instagram.com/aromacoffeesukoharjo",
                 "https://www.facebook.com/aromacoffeesukoharjo", 

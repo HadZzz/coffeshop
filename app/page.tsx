@@ -5,6 +5,7 @@ import Features from '@/components/Features'
 import Menu from '@/components/Menu'
 import Gallery from '@/components/Gallery'
 import LocalSEO from '@/components/LocalSEO'
+import SEOContent from '@/components/SEOContent'
 import FAQ from '@/components/FAQ'
 import Contact from '@/components/Contact'
 import SEOFooter from '@/components/SEOFooter'
@@ -20,6 +21,7 @@ export default function Home() {
       <Menu />
       <Gallery />
       <LocalSEO />
+      <SEOContent />
       <FAQ />
       <Contact />
       <SEOFooter />

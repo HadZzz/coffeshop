@@ -8,28 +8,28 @@ export default function FAQ() {
 
   const faqs = [
     {
-      question: 'Dimana lokasi Aroma Coffee Sukoharjo?',
-      answer: 'Aroma Coffee Sukoharjo berlokasi di Jl. Jenderal Sudirman No. 123, pusat kota Sukoharjo. Lokasi strategis dan mudah dijangkau, menjadikan kami rekomendasi coffee shop Sukoharjo yang favorit.'
+      question: 'Dimana tempat ngopi enak di Sukoharjo yang recommended?',
+      answer: 'Kedai kopi Mbahhadi berlokasi di Jl. Jenderal Sudirman No. 123, pusat kota Sukoharjo. Sebagai tempat ngopi enak di Sukoharjo, lokasi kami strategis dan mudah dijangkau dari berbagai arah.'
     },
     {
-      question: 'Apakah Aroma Coffee termasuk tempat ngopi murah Sukoharjo?',
-      answer: 'Ya! Kami adalah tempat ngopi murah Sukoharjo dengan harga mulai 8rb-an. Kedai kopi Mbahhadi menawarkan kopi premium dengan harga terjangkau untuk semua kalangan.'
+      question: 'Apa yang membuat ini coffee shop Sukoharjo terbaik?',
+      answer: 'Kami menyajikan kopi enak Sukoharjo dengan biji premium, suasana nyaman, dan pelayanan ramah. Sebagai cafe Sukoharjo favorit, kami berkomitmen memberikan pengalaman ngopi terbaik.'
     },
     {
-      question: 'Apakah ada WiFi gratis Sukoharjo di sini?',
-      answer: 'Tentu! Kami menyediakan WiFi gratis Sukoharjo berkecepatan tinggi untuk semua pelanggan. Cocok untuk bekerja, belajar, atau meeting di kedai kopi Mbahhadi.'
+      question: 'Apakah ini kedai kopi Sukoharjo dengan harga terjangkau?',
+      answer: 'Ya! Sebagai tempat ngopi murah Sukoharjo, kami menawarkan kopi premium dengan harga mulai 8rb-an. Kedai kopi Mbahhadi mengutamakan kualitas tanpa menguras kantong.'
     },
     {
-      question: 'Bisakah digunakan sebagai tempat meeting Sukoharjo?',
-      answer: 'Sangat bisa! Aroma Coffee Sukoharjo adalah tempat meeting Sukoharjo yang nyaman dengan WiFi gratis, AC dingin, dan suasana tenang. Reservasi melalui +62-858-7612-0167.'
+      question: 'Mengapa disebut warung kopi Sukoharjo terenak?',
+      answer: 'Karena kami menggunakan biji kopi pilihan, barista berpengalaman, dan resep rahasia keluarga. Setiap cangkir kopi enak Sukoharjo dibuat dengan penuh perhatian dan cinta.'
     },
     {
-      question: 'Jam buka kedai kopi Mbahhadi berapa?',
-      answer: 'Kedai kopi Mbahhadi buka setiap hari: Senin-Jumat pukul 06:00-21:00, Sabtu-Minggu pukul 07:00-22:00. Aroma Coffee Sukoharjo siap melayani dari pagi hingga malam.'
+      question: 'Jam buka tempat ngopi nyaman Sukoharjo ini berapa?',
+      answer: 'Kedai kopi Mbahhadi buka setiap hari: Senin-Jumat pukul 06:00-21:00, Sabtu-Minggu pukul 07:00-22:00. Tempat ngopi enak di Sukoharjo yang siap melayani dari pagi hingga malam.'
     },
     {
-      question: 'Mengapa Aroma Coffee jadi rekomendasi coffee shop Sukoharjo?',
-      answer: 'Karena kami menggabungkan kualitas premium dengan harga murah, WiFi gratis, tempat meeting nyaman, dan pelayanan terbaik. Rating 4.8/5 membuat kami rekomendasi coffee shop Sukoharjo #1.'
+      question: 'Kenapa jadi rekomendasi coffee shop Sukoharjo #1?',
+      answer: 'Rating 4.8/5 dari 1000+ pelanggan membuktikan kualitas kami. Sebagai cafe Sukoharjo terbaik, kami menggabungkan kopi enak, suasana nyaman, dan harga terjangkau dalam satu tempat.'
     }
   ]
 
@@ -38,11 +38,11 @@ export default function FAQ() {
       <div className="container-custom">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-coffee-900 mb-6">
-            FAQ Coffeshop Sukoharjo
+            FAQ Tempat Ngopi Enak di Sukoharjo
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Pertanyaan yang sering ditanyakan tentang Aroma Coffee Mbahhadi - 
-            tempat ngopi enak di Sukoharjo
+            Pertanyaan yang sering ditanyakan tentang kedai kopi Mbahhadi - 
+            coffee shop Sukoharjo terbaik dan cafe Sukoharjo favorit
           </p>
         </div>
 
