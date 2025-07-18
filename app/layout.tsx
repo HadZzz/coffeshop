@@ -4,7 +4,7 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Tempat Ngopi Enak di Sukoharjo - Kedai Kopi Mbahhadi | Coffee Shop Sukoharjo Terbaik',
   description: 'Tempat ngopi enak di Sukoharjo! Kedai kopi Mbahhadi - coffee shop Sukoharjo terbaik dengan kopi premium, suasana nyaman, harga murah. Cafe Sukoharjo favorit sejak 2019. Warung kopi terenak di pusat kota!',
-  keywords: 'tempat ngopi enak di sukoharjo, kedai kopi sukoharjo, coffee shop sukoharjo, cafe sukoharjo, warung kopi sukoharjo, kopi enak sukoharjo, tempat ngopi murah sukoharjo, kedai kopi mbahhadi, coffeshop mbahhadi, aroma coffee sukoharjo, tempat nongkrong sukoharjo, kopi terbaik sukoharjo, rekomendasi coffee shop sukoharjo, tempat ngopi nyaman sukoharjo, kedai kopi enak sukoharjo, coffee shop terbaik sukoharjo, warung kopi mbahhadi, cafe enak sukoharjo, tempat minum kopi sukoharjo'gramable sukoharjo, tempat ngopi romantis sukoharjo',
+  keywords: 'tempat ngopi enak di sukoharjo, kedai kopi sukoharjo, coffee shop sukoharjo, cafe sukoharjo, warung kopi sukoharjo, kopi enak sukoharjo, tempat ngopi murah sukoharjo, kedai kopi mbahhadi, coffeshop mbahhadi, aroma coffee sukoharjo, tempat nongkrong sukoharjo, kopi terbaik sukoharjo, rekomendasi coffee shop sukoharjo, tempat ngopi nyaman sukoharjo, kedai kopi enak sukoharjo, coffee shop terbaik sukoharjo, warung kopi mbahhadi, cafe enak sukoharjo, tempat minum kopi sukoharjo',
   authors: [{ name: 'Aroma Coffee Sukoharjo' }],
   creator: 'Aroma Coffee Sukoharjo',
   publisher: 'Aroma Coffee Sukoharjo',
